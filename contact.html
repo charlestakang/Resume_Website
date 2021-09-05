@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 </head>
+
 <body>
     <H2>Contact Info</H2>
     <hr>
@@ -24,6 +26,22 @@
             </tr>
         </tbody>
     </table>
-<hr>
+    <hr>
+    <form action="mailto:ctakang@msn.com" enctype="text/plain">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your First and Last names">
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required placeholder="youremail@rmail.com">
+        </p>
+        <p>
+            <textarea id="msg" rows="10" cols="30"></textarea>
+        </p>
+        <button type="submit">SEND</button>
+
+    </form>
 </body>
+
 </html>
